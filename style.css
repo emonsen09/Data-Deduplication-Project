@@ -1,0 +1,83 @@
+/* Reset default browser styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+}
+
+/* Header */
+.header {
+    background-color: #392bd4;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 25px 10px;
+}
+
+.subtitle {
+    margin-top: 5px;
+    font-size: 14px;
+    opacity: 0.9;
+}
+
+/* Main container */
+.container {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 10px;
+}
+
+/* Card style */
+.card {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+/* Card headings */
+.card h2 {
+    margin-top: 0;
+    color: #333;
+}
+
+/* File input */
+input[type="file"] {
+    padding: 5px;
+}
+
+/* Button */
+button {
+    background-color: #1f4fd8;
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #163db1;
+}
+
+/* Status message */
+.status {
+    padding: 12px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.status.success {
+    background-color: #e6f4ea;
+    color: #1e7e34;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 15px;
+    color: #666;
+    font-size: 13px;
+}
